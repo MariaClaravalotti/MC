@@ -22,6 +22,7 @@ p{
 
 section{
     display: flex;
+    flex-direction: column;
     place-items: center;
     align-items: center;
     min-height: 100vh;
@@ -30,7 +31,8 @@ section{
 }
 
 .hidden{
-    opacity: 1;
+    text-align: center;
+    opacity: 0;
     filter: blur(15px);
     transition: all 10s;
     transform: translateX(-100%);
